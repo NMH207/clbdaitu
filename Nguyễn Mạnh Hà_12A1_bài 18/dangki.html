@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Thành Viên CLB Ngoại Khóa</title>
+</head>
+<body>
+
+    <h2>ĐĂNG KÝ THÀNH VIÊN CLB NGOẠI KHÓA TRƯỜNG THPT ĐẠI TỪ</h2>
+    <form action="#" method="POST">
+        <label for="name">Họ tên:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="dob">Ngày sinh:</label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="address">Địa chỉ:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="Nam" required> Nam
+        <input type="radio" id="female" name="gender" value="Nữ"> Nữ<br>
+
+        <label>Sở thích:</label>
+        <input type="checkbox" name="hobbies" value="Cờ vua"> Cờ vua
+        <input type="checkbox" name="hobbies" value="Trò chơi điện tử"> Trò chơi điện tử
+        <input type="checkbox" name="hobbies" value="Du lịch"> Du lịch
+        <input type="checkbox" name="hobbies" value="Cắm hoa"> Cắm hoa
+        <input type="checkbox" name="hobbies" value="Nấu ăn"> Nấu ăn<br>
+
+        <label for="resume">Hồ sơ đính kèm:</label>
+        <input type="file" id="resume" name="resume"><br>
+
+        <label for="club">Đăng ký CLB:</label>
+        <select id="club" name="club">
+            <option value="Bóng rổ">Bóng rổ</option>
+            <option value="Sáng tạo trẻ">Sáng tạo trẻ</option>
+        </select><br><br>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+
+</body>
+</html>
